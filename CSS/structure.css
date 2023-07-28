@@ -6,6 +6,12 @@
   height: 65px;
   
 }
+.header a.title {
+  font-size: 35px; /* Set the desired font size */
+  text-decoration: none; /* Remove the underline */
+  color: #fff; /* Set the desired text color */
+  font-weight: bold;
+}
 
 .title {
   flex-grow: 1;
