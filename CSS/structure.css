@@ -179,3 +179,23 @@
   background-color: #f2f2f2;
   color: #1b1b1b; /* Add a background color on hover for visual feedback */
 }
+
+.performance-graph {
+  margin-top: 20px; /* Add some spacing between the itemgrid and the graph */
+  border: 1px solid #ccc; /* Add a border around the graph */
+  padding: 10px; /* Add some padding to the graph container */
+  background-color: #f9f9f9; /* Add a background color */
+
+  /* Adjust the size of the graph container */
+  width: 90%; /* Change this value to control the width of the graph section */
+  max-width: 800px; /* Optionally, set a maximum width for the graph section */
+  margin-left: auto; /* Center the graph section horizontally */
+  margin-right: auto;
+}
+
+/* Customize the appearance of the canvas element */
+.performance-graph canvas {
+  /* Adjust the size of the canvas (graph) */
+  
+  height: 300px; /* Change this value to control the height of the graph */
+}
