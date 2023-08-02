@@ -19,11 +19,10 @@ const prices = [
     118.00, 104.00, 101.00, 105.00, 104.00, 103.00, 96.00, 93.00,98.00
 ];
 
-// Combine dates and prices into the performanceData object format
 const performanceData = {
     labels: dates,
     datasets: [{
-        label: "Price (EUR)",
+        label: "Performance",
         data: prices,
         backgroundColor: "rgba(75, 192, 192, 0.2)",
         borderColor: "rgba(75, 192, 192, 1)",
@@ -42,7 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 y: {
                     beginAtZero: true
                 }
-            }
+            },
+            responsive: true, // Enable responsive mode
+            maintainAspectRatio: false // Allow the chart to adjust its width freely
         }
     });
 });
