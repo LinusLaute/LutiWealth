@@ -245,6 +245,7 @@
   line-height: 1.6; /* Adjust the line height of paragraphs for better readability */
 }
 .contact {
+  margin-top: 10px;
   background-color: #fff;
   padding: 20px;
   text-align: center;
