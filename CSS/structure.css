@@ -187,8 +187,8 @@
   background-color: #f9f9f9; /* Add a background color */
 
   /* Adjust the size of the graph container */
-  width: 90%; /* Change this value to control the width of the graph section */
-  max-width: 800px; /* Optionally, set a maximum width for the graph section */
+  width: 100%; /* Change this value to control the width of the graph section */
+ 
   margin-left: auto; /* Center the graph section horizontally */
   margin-right: auto;
 }
