@@ -22,7 +22,7 @@ const prices = [
 const performanceData = {
     labels: dates,
     datasets: [{
-        label: "Performance",
+        label: "Price (EUR)",
         data: prices,
         backgroundColor: "rgba(75, 192, 192, 0.2)",
         borderColor: "rgba(75, 192, 192, 1)",
