@@ -8,4 +8,9 @@ $(function() {
     $(this).toggleClass('open');
     $(this).find('.subpages').toggle();
   });
+  
+  $('.faq-question-container').click(function() {
+    $(this).find('.faq-question').toggleClass('open');
+    $(this).siblings('.faq-answer').toggle();
+  });
 });

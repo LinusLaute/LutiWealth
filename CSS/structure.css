@@ -252,7 +252,32 @@
 .contact h2 {
   text-align: center;
 }
-.faq a {
-  color: black;
-  text-decoration: none;
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  position: relative; /* Add this line to position the arrows correctly */
+  padding-left: 25px; /* Add left padding for the arrow */
+}
+
+.faq-question::before {
+  content: '▼'; /* Downward arrow symbol */
+  position: absolute;
+  left: 5px; /* Adjust the left position of the arrow */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.faq-question.open::before {
+  content: '▲'; /* Upward arrow symbol when open */
+}
+
+
+
+
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+}
+.faq-answer.show {
+  display: block;
 }
