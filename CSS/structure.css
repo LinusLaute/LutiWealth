@@ -230,7 +230,7 @@
 
 /* Style the heading elements */
 .content h2 {
-  color: #218dcc; /* Change the color of the main heading */
+  color: solid black; /* Change the color of the main heading */
   font-size: 24px; /* Increase the font size of the main heading */
   margin-bottom: 10px; /* Add some space between the main heading and the content */
 }
