@@ -187,10 +187,10 @@
   background-color: #f9f9f9; /* Add a background color */
 
   /* Adjust the size of the graph container */
-  width: 100%; /* Change this value to control the width of the graph section */
+  width: auto; /* Change this value to control the width of the graph section */
  
-  margin-left: auto; /* Center the graph section horizontally */
-  margin-right: auto;
+  margin-left: 10px; /* Center the graph section horizontally */
+  margin-right: 10px;
 }
 
 /* Customize the appearance of the canvas element */
