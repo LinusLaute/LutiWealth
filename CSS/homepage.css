@@ -43,6 +43,11 @@ hr {
   border-top: 10px solid rgb(119, 116, 116);
   margin: 20px 0;
 }
-
+img:hover {
+  transform: scale(1.2);
+}
+button:hover {
+  background-color: #289acf;
+}
   
   

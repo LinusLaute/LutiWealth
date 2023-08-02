@@ -155,6 +155,17 @@
   background-color: #f2f2f2;
   color: #1b1b1b;;
 }
+@media (max-width: 768px) {
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    display: block;
+    margin: 10px 0;
+  }
+}
 
 .subpages {
   display: none; /* Hide the subpages by default */
@@ -179,7 +190,12 @@
   background-color: #f2f2f2;
   color: #1b1b1b; /* Add a background color on hover for visual feedback */
 }
+/* styles.css */
 
+/* Style the performance graph container */
+/* styles.css */
+
+/* Style the performance graph container */
 .performance-graph {
   margin-top: 20px; /* Add some spacing between the itemgrid and the graph */
   border: 1px solid #ccc; /* Add a border around the graph */
@@ -188,7 +204,7 @@
 
   /* Adjust the size of the graph container */
   width: auto; /* Change this value to control the width of the graph section */
- 
+   /* Optionally, set a maximum width for the graph section */
   margin-left: 10px; /* Center the graph section horizontally */
   margin-right: 10px;
 }
@@ -199,6 +215,10 @@
   
   height: 300px; /* Change this value to control the height of the graph */
 }
+
+
+
+
 /* Apply styles to the Investment Strategy section */
 .content {
   margin: 20px; /* Add some margin around the section */
@@ -223,4 +243,16 @@
 
 .strategy-section p {
   line-height: 1.6; /* Adjust the line height of paragraphs for better readability */
+}
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.contact h2 {
+  text-align: center;
+}
+.faq a {
+  color: black;
+  text-decoration: none;
 }
