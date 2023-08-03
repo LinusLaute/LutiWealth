@@ -216,15 +216,14 @@ body{
 
   /* Adjust the size of the graph container */
   width: auto; /* Change this value to control the width of the graph section */
-   /* Optionally, set a maximum width for the graph section */
-  margin-left: 10px; /* Center the graph section horizontally */
-  margin-right: 10px;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the graph section horizontally */
+  text-align: center;
 }
 
 /* Customize the appearance of the canvas element */
 .performance-graph canvas {
   /* Adjust the size of the canvas (graph) */
-  
   height: 300px; /* Change this value to control the height of the graph */
 }
 

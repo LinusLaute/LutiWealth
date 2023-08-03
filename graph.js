@@ -22,7 +22,7 @@ const prices = [
 const performanceData = {
     labels: dates,
     datasets: [{
-        label: "Price (EUR)",
+        label: "Performance",
         data: prices,
         backgroundColor: "rgba(75, 192, 192, 0.2)",
         borderColor: "rgba(75, 192, 192, 1)",
@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
         options: {
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    max: 160 // Set the maximum value for the Y-axis
                 }
             },
             responsive: true, // Enable responsive mode
