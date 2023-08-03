@@ -27,6 +27,17 @@
   width: 40px; /* Set the desired width */
   height: 40px; /* Set the desired height */
 }
+/* Add a CSS reset to remove default margins and paddings */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Set box-sizing to border-box to include padding and border in element's total width */
+* {
+  box-sizing: border-box;
+}
+
 
 .secondtitle {
   
@@ -124,7 +135,7 @@
   top: 65px;
   left: 0;
   width: 200px;
-  background-color: rgb(185, 182, 182);
+  background-color: #fff;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -147,13 +158,13 @@
 }
 
 .menu li a {
-  text-decoration: underline;
-  color: #333;
+  text-decoration: none;
+  color: #218dcc;
 }
 
 .menu li a:hover {
-  background-color: #f2f2f2;
-  color: #1b1b1b;;
+  color: black;
+  text-decoration: underline;
 }
 @media (max-width: 768px) {
   .menu ul {
@@ -246,7 +257,7 @@
 }
 .contact {
   margin-top: 10px;
-  background-color: #fff;
+  background-color: #f9f9f9ff;
   padding: 20px;
   text-align: center;
 }
@@ -282,5 +293,94 @@
 .faq-answer.show {
   display: block;
 }
+
+/* Existing CSS classes... */
+
+/* Hero Section */
+.hero {
+  margin-top: 0px;
+  background-color: #218dcc;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #218dcc;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+/* About Section */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-content h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px; /* Adjust this value to control the maximum width of the centered block */
+  font-size: 18px;
+  line-height: 1.6;
+}
+.about-section:hover {
+  background-color: #eaeaea; /* Change this to the desired hover background color */
+}
+
+/* Style the text within the section */
+.section-link .about-content h2,
+.section-link .about-content p {
+  color: black; /* Set the desired text color */
+  text-decoration: none;
+}
+
+
+
+
+/* Footer Section */
+.footer-section {
+  background-color: #1b1b1b;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Footer Content */
+.footer-content {
+  font-size: 14px;
+}
+
+/* End of the file */
 
 
