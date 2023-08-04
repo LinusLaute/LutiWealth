@@ -9,9 +9,9 @@ $(function() {
     $(this).find('.subpages').toggle();
   });
 
-  
+  // Add the following code for the FAQ section
   $('.faq-question').click(function() {
     $(this).toggleClass('open');
-    $(this).next('.faq-answer').toggleClass('show');
+    $(this).parent().siblings('.faq-answer').toggle();
   });
 });
