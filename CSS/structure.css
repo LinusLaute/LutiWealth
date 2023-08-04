@@ -230,6 +230,7 @@ body{
 
 
 
+
 /* Apply styles to the Investment Strategy section */
 .content {
   margin: 0px; /* Add some margin around the section */
@@ -250,11 +251,13 @@ body{
   font-size: 18px;
   line-height: 1.6; /* Add some padding to the list items */
 }
+
 /* Style the heading elements */
 .content h2 {
   color: solid black; /* Change the color of the main heading */
   font-size: 24px; /* Increase the font size of the main heading */
   margin-bottom: 10px; /* Add some space between the main heading and the content */
+  text-align: center;
 }
 
 .content h3 {
@@ -298,7 +301,15 @@ body{
 .faq-question.open::before {
   content: '▲'; /* Upward arrow symbol when open */
 }
+body{
+  margin: 0;
+  padding: 0;
+}
 
+/* Set box-sizing to border-box to include padding and border in element's total width */
+* {
+  box-sizing: border-box;
+}
 
 
 
