@@ -232,13 +232,24 @@ body{
 
 /* Apply styles to the Investment Strategy section */
 .content {
-  margin: 20px; /* Add some margin around the section */
-  padding: 10px; /* Add padding inside the section */
+  margin: 0px; /* Add some margin around the section */
+  padding: 0px; /* Add padding inside the section */
   border: 1px solid #ccc; /* Add a border around the section */
   border-radius: 5px; /* Round the corners of the border */
   background-color: #f9f9f9; /* Set a background color for the section */
 }
-
+.content p {
+  margin: 0px; /* Remove the default top and bottom margin for paragraphs */
+  padding: 10px; /* Add some padding to the paragraphs */
+  font-size: 18px;
+  line-height: 1.6; /* Add some padding to the paragraphs */
+}
+.content li {
+  margin: 0px; /* Remove the default top and bottom margin for list items */
+  padding: 10px; /* Add some padding to the list items */
+  font-size: 18px;
+  line-height: 1.6; /* Add some padding to the list items */
+}
 /* Style the heading elements */
 .content h2 {
   color: solid black; /* Change the color of the main heading */
