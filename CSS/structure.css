@@ -275,6 +275,11 @@ body{
 .contact h2 {
   text-align: center;
 }
+.faq-question-container {
+  display: flex; /* Use flexbox to horizontally center the text and arrow */
+  align-items: center; /* Align items (text and arrow) vertically in the container */
+  justify-content: center; /* Center the items horizontally in the container */
+}
 .faq-question {
   font-weight: bold;
   cursor: pointer;
@@ -285,8 +290,8 @@ body{
 .faq-question::before {
   content: '▼'; /* Downward arrow symbol */
   position: absolute;
-  left: 5px; /* Adjust the left position of the arrow */
-  top: 50%;
+  left: -10px; /* Adjust the left position of the arrow */
+  top: 60%;
   transform: translateY(-50%);
 }
 
