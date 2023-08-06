@@ -5,37 +5,41 @@
     <link rel="stylesheet" type="text/css" href="CSS/structure.css">
     <link rel="stylesheet" href="CSS/homepage.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <script src="JS/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="graph.js"></script>
+    <script src="JS/graph.js"></script>
 </head>
 <body>
-    <div class="header">
-        <div class="menu-button">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-        <h1 class="title">Luti Wealth Management</h1>
-        <div class="menu">
-          <ul>
-            <li>
-              <a href="casefund.html">Case Fund</a>
-            </li>
-            <li>
-              <a href="#">2021 Collections</a>
-              <ul class="subpages">
-                <li><a href="riptidefund.html">Overview</a></li>
-                <li><a href="dust2.html">Dust 2</a></li>
-                <li><a href="mirage2021.html">Mirage</a></li>
-                <li><a href="havoc.html">Havoc</a></li>
-                <li><a href="controll.html">Controll</a></li>
-              </ul>
-            </li>
-            <li><a href="information.html">Information</a></li>
+  <div class="header">
+    <div class="menu-button">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <h1 class="title">Luti Wealth Management</h1>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="news.html">News</a></li>
+
+        <li><a href="aboutus.html">About Us</a></li>
+
+        <li>
+          <a href="#">Funds</a>
+          <ul class="subpages">
+            <li><a href="fundpage.html">Overview</a></li>
+            <li><a href="riptidefund.html">Riptide Fund</a></li>
+            <li><a href="casefund.html ">Case Fund</a></li>    
           </ul>
-        </div>
-      </div>
+        </li>
+
+        <li><a href="information.html">Information</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+
+      </ul>
+    </div>
+  </div>
+    
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
@@ -48,7 +52,17 @@
     <!-- Navigation -->
     
 
-    
+    <div class="about-section-wrapper">
+    <section id="about1" class="about-section">
+        <div class="about-content">
+            <h2>News</h2>
+            <p>
+                We are right now in the middle of assembling a new fund which will contain so called 'Major Stickers'. 
+                What those are and how they work can be read in our news section or by clicking the link.
+                <a href="news.html">Read more</a>
+            </p>
+        </div>
+    </section>
     <section id="about1" class="about-section">
         <div class="about-content">
             <h2>About Luti Wealth Management</h2>
@@ -57,7 +71,7 @@
                 We offer two funds with different risk-reward ratios and a commitment to expanding into diverse markets.
                 Our strategies aim to capitalize on the fast-growing gaming and esports industry without the need to 
                 invest in individual companies. Invest with us to unlock the potential of gaming cosmetics investments.
-                <a href="aboutus.html">See more</a>
+                <a href="aboutus.html">Read more</a>
             </p>
         </div>
     </section>
@@ -68,7 +82,7 @@
             <p>
                 Our funds have demonstrated strong growth and consistent returns over time. 
                 Explore our fund performance to see the opportunities gaming cosmetics investments offer.
-                <a href="casefund.html">See more</a>
+                <a href="casefund.html">Read more</a>
             </p>
             <div class="performance-graph">
               <canvas id="performanceChart"></canvas>
@@ -87,11 +101,12 @@
             Because of that, we have conducted two funds as of now with different components and different volatility classes.
             Our strategies aim to capitalize on the fast-growing gaming and esports industry without the need to 
             invest in individual companies.
-            <a href="information.html">See more</a>
+            <a href="information.html">Read more</a>
         </p>
     </section>
 
-  
+   </div>
+
     <div class="contact">
         <h2>Contact Us</h2>
         <p>Email: lautenschlagerlinus@gmail.com</p>
@@ -108,4 +123,3 @@
     
 </body>
 </html>
-
