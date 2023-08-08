@@ -240,16 +240,26 @@ body{
   background-color: #f9f9f9; /* Set a background color for the section */
 }
 .content p {
-  margin: 0px; /* Remove the default top and bottom margin for paragraphs */
-  padding: 10px; /* Add some padding to the paragraphs */
+  display: block;
+  margin: 0 auto;
+  max-width: 1500px; 
   font-size: 18px;
-  line-height: 1.6; /* Add some padding to the paragraphs */
+  line-height: 1.6;
+  
+ 
 }
 .content li {
-  margin: 0px; /* Remove the default top and bottom margin for list items */
-  padding: 10px; /* Add some padding to the list items */
+  display: list-item; /* Ensure it's treated as a list item */
+  list-style-type: circle; /* Set the bullet points */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
   font-size: 18px;
-  line-height: 1.6; /* Add some padding to the list items */
+  line-height: 1.6;
+  padding: 10px;
+}
+.content li::marker {
+  font-size: 25px; /* Set the desired font size for the bullet points */
 }
 
 /* Style the heading elements */
