@@ -233,8 +233,8 @@ body{
 
 /* Apply styles to the Investment Strategy section */
 .content {
-  margin: 20px; /* Add some margin around the section */
-  padding: 0px; /* Add padding inside the section */
+  margin: 0px; /* Add some margin around the section */
+  padding: 20px; /* Add padding inside the section */
   border: 1px solid #ccc; /* Add a border around the section */
   border-radius: 5px; /* Round the corners of the border */
   background-color: #f9f9f9; /* Set a background color for the section */
