@@ -2,9 +2,7 @@ body { background-color: gainsboro;
   font-family: Arial, sans-serif;
   color: hwb(248 13% 84%);
 }
-@media (max-width: 768px) {
-  /* Adjust styles here */
-}
+
 
 h1 {
 font-size: 36px;
