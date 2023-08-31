@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bot Output</title>
+</head>
+<body>
+    <h1>Bot Output</h1>
+    <pre id="output"></pre>
+    <script>
+        // Function to load the bot output
+        function loadOutput() {
+            fetch('http://46.101.190.234/bot_output.log')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('output').textContent = data;
+                });
+        }
+        // Load the output initially and then refresh every 10 seconds
+        loadOutput();
+        setInterval(loadOutput, 10000);
+    </script>
+</body>
+</html>
