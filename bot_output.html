@@ -38,25 +38,8 @@
             </ul>
         </div>
     </div>
-    <h1>Bot Output</h1>
-    <pre id="output"></pre>
-    <script>
-        // Function to load the bot output
-        function loadOutput() {
-            fetch('http://46.101.190.234/fast_bot.log', {
-            headers: {
-                    'Content-Type': 'text/plain'
-                }
-            })
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('output').textContent = data;
-            });
-
-        }
-        // Load the output initially and then refresh every 10 seconds
-        loadOutput();
-        setInterval(loadOutput, 10000);
-    </script>
+    <h1><a href="http://46.101.190.234/bot_output.html">Bot Output</a></h1>
+    
+    
 </body>
 </html>
