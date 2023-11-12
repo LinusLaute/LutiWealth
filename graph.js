@@ -1,6 +1,6 @@
 // graph.js
 
-// Sample data for the performance graph
+// data for the performance graph
 const dates = [
     "15.11.2022", "17.11.2022", "18.11.2022", "19.11.2022", "21.11.2022",
     "22.11.2022", "23.11.2022", "28.11.2022", "05.12.2022", "08.12.2022",
