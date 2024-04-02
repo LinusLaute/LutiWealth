@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
             scales: {
                 y: {
                     beginAtZero: true,
-                    max: 160 // Set the maximum value for the Y-axis
+                    max: 170 // Set the maximum value for the Y-axis
                 }
             },
             responsive: true, // Enable responsive mode
