@@ -95,7 +95,7 @@ button[type="submit"]:hover {
 .header {
   display: flex;
   align-items: center;
-  background-color: #218dcc;
+  background-color: #7725ba;
   padding: 1px;
   height: 65px;
   border-bottom: 2px solid #eaeaea;
@@ -430,7 +430,7 @@ body{
 /* Hero Section */
 .hero {
   margin-top: 0px;
-  background-color: #218dcc;
+  background-color: #7725ba;
   color: #fff;
   padding: 20px 0;
   text-align: center;
