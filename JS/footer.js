@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Footer -->
       <footer class="footer-section">
         <div class="footer-content">
-          <p>&copy; 2023 Luti Wealth Management. All rights reserved.</p>
+          <p>&copy; 2025 Luti Capital. All rights reserved.</p>
         </div>
       </footer>
     `;
