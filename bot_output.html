@@ -1,46 +1,51 @@
 <head>
-    <link rel="icon" href="images/LutiCapital.png" type="image/x-icon">
-  
-    <title>Information</title>
-    <link rel="stylesheet" type="text/css" href="CSS/structure.css">
-    <link rel="stylesheet" href="CSS/homepage.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
-  
+  <link rel="icon" href="images/LutiCapital.png" type="image/x-icon">
+  <title>Information – Luti Capital</title>
+  <link rel="stylesheet" type="text/css" href="CSS/structure.css">
+  <link rel="stylesheet" href="CSS/homepage.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
-    <div class="header">
-        <div class="menu-button">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <a href="index.html" class="title">Information</a>
-        <div class="menu">
-            <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="news.html">News</a></li>
-
-            <li><a href="aboutus.html">About Us</a></li>
-
-            <li>
-                <a href="#">Funds</a>
-                <ul class="subpages">
-                <li><a href="fundpage.html">Overview</a></li>
-                <li><a href="riptidefund.html">Riptide Fund</a></li>
-                <li><a href="casefund.html ">Case Fund</a></li>    
-                </ul>
-            </li>
-
-            <li><a href="information.html">Information</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-
-            </ul>
-        </div>
+  <div class="header">
+    <div class="menu-button">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
-    <h1><a href="http://46.101.190.234/bot_output.html">Bot Output</a></h1>
-    <h2 style="text-align: center;">This link leads to the running output of the current Arbitrage Bot</h2>
-    
-    
-</body>
-</html>
+    <a href="index.html" class="title">Information</a>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li>
+          <a href="#">Funds</a>
+          <ul class="subpages">
+            <li><a href="fundpage.html">Overview</a></li>
+            <li><a href="riptidefund.html">Riptide Fund</a></li>
+            <li><a href="casefund.html">Case Fund</a></li>
+          </ul>
+        </li>
+        <li><a href="information.html">Information</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1>What Our Arbitrage Bot Does</h1>
+    <p>
+      The core of Luti Capital is an automated arbitrage bot that actively scans online marketplaces — mainly <b>SkinBaron</b> (EU) and <b>BUFF</b> (China) — for temporary price differences in digital items, especially <b>CS:GO skins</b> and cosmetics.
+    </p>
+
+    <h2>How It Works</h2>
+    <ul>
+      <li>It fetches real-time listings using marketplace APIs (like SkinBaron’s <code>/BestDeals</code> and <code>/NewestItems</code> endpoints).</li>
+      <li>It compares prices of identical items across platforms (or against historical sale data) to detect profitable mismatches.</li>
+      <li>If a profitable opportunity is found, it automatically executes the trade — either buying, listing for resale, or both.</li>
+      <li>Pricing, inventory, and cooldowns are all handled dynamically using internal logic and timers.</li>
+    </ul>
+
+    <h2>Why It Works</h2>
+    <
